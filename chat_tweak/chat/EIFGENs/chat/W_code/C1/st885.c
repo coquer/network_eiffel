@@ -10,8 +10,8 @@
 extern "C" {
 #endif
 
+extern EIF_TYPED_VALUE F885_7485(EIF_REFERENCE);
 extern EIF_TYPED_VALUE F885_7487(EIF_REFERENCE);
-extern EIF_TYPED_VALUE F885_7489(EIF_REFERENCE);
 extern void EIF_Minit885(void);
 
 #ifdef __cplusplus
@@ -34,7 +34,7 @@ extern "C" {
 #endif
 
 /* {STREAM_SOCKET}.support_storable */
-EIF_TYPED_VALUE F885_7487 (EIF_REFERENCE Current)
+EIF_TYPED_VALUE F885_7485 (EIF_REFERENCE Current)
 {
 	EIF_TYPED_VALUE r;
 	r.type = SK_BOOL;
@@ -43,7 +43,7 @@ EIF_TYPED_VALUE F885_7487 (EIF_REFERENCE Current)
 }
 
 /* {STREAM_SOCKET}.accepted */
-EIF_TYPED_VALUE F885_7489 (EIF_REFERENCE Current)
+EIF_TYPED_VALUE F885_7487 (EIF_REFERENCE Current)
 {
 	EIF_TYPED_VALUE r;
 	r.type = SK_REF;

@@ -17,7 +17,6 @@ create
 	make_chat
 
 feature
-
 	connections: LINKED_LIST [CONNECTION]
 	max_to_poll: INTEGER
 	message_out: MESSAGE
@@ -30,7 +29,7 @@ feature
 			l_connections: detachable like connections
 			l_in: detachable like in
 		do
-			make (2222)
+			make (1337)
 			max_to_poll := 1
 			create poll.make_read_only
 			in.set_non_blocking
@@ -79,7 +78,8 @@ feature
 						end
 						pos := connections.index
 						-- l_message_in.print_message
-						message_out.print_message
+						message_
+						out.print_message
 						broadcast
 						connections.go_i_th (pos)
 					end
@@ -126,7 +126,6 @@ feature
 			end
 			poll.execute (max_to_poll, 1000)
 		end
-
 
 	new_client (a_flow: attached like outflow)
 		local

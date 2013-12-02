@@ -139,9 +139,9 @@ void egc_init_plug (void)
 	egc_forg_table = egc_forg_table_init;
 
 	egc_system_name = "chat";
-	egc_system_location = "C:\\Users\\Stefan\\Desktop\\examples\\net\\advanced\\chat\\EIFGENs\\chat\\W_code";
+	egc_system_location = "C:\\Users\\Stefan Rasmussen\\Documents\\GitHub\\network_eiffel\\chat_tweak\\chat\\EIFGENs\\chat\\W_code";
 	egc_compiler_tag = 38;
-	egc_project_version = 1385553085;
+	egc_project_version = 1385470035;
 	egc_has_old_special_semantic = 0;
 	egc_has_ieee_semantic = 1;
 	scount = 887;
@@ -157,7 +157,7 @@ void egc_init_plug (void)
 	egc_rcdt[0] = 0;
 	egc_rcorigin[0] = 346;
 	egc_rcoffset[0] = 4;
-	egc_rcarg[0] = 1;
+	egc_rcarg[0] = 0;
 	
 	
 	egc_platform_level = 0x00000D00;

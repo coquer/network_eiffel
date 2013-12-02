@@ -16,19 +16,19 @@ create
 
 feature
 
-	make_join (argv: ARRAY [STRING])
+	make_join
 		local
-			l_in_out: detachable like in_out
 			l_client_name: detachable like client_name
 		do
 			check_name
 			l_client_name := client_name
-			make (2222, "localhost")
+			make (1337, "localhost")
 			max_to_poll := in_out.descriptor + 1
 			create connection.make (in_out)
 			create poll.make_read_only
 			poll.put_read_command (connection)
 			send_name_to_server
+			auto_scan
 			processing
 		end
 
@@ -42,7 +42,8 @@ feature {NONE} -- Implementation
 	over: BOOLEAN
 	poll: MEDIUM_POLLER
 	input_poll: detachable MEDIUM_POLLER
-	max_to_poll: INTEGER;
+	max_to_poll: INTEGER
+	waiting:BOOLEAN
 
 	send_name_to_server
 		do
@@ -86,6 +87,7 @@ feature {NONE} -- Implementation
 				message_out.set_client_name (client_name)
 				message_out.set_new (False)
 				send (message_out)
+				auto_scan
 			end
 		end
 
@@ -112,11 +114,21 @@ feature {NONE} -- Implementation
 				receive
 				l_received := received
 				if l_received /= Void then
+					waiting := FALSE
 					l_received.print_message
 					if l_received.over then
 						over := True
 					end
 				end
+			end
+		end
+
+	auto_scan
+		do
+			waiting := TRUE
+			from until not waiting
+			loop
+				scan_from_server
 			end
 		end
 

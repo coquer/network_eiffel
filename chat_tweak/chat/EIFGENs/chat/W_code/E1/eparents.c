@@ -3484,12 +3484,12 @@ static struct eif_par_types par868 = {868, ptf868, (uint16) 0, (char) 0};
 static EIF_TYPE_INDEX ptf869[] = {0,0,0xFFFF};
 static struct eif_par_types par869 = {869, ptf869, (uint16) 0, (char) 0};
 
-/* INET4_ADDRESS */
-static EIF_TYPE_INDEX ptf870[] = {0,869,0xFFFF};
+/* INET6_ADDRESS */
+static EIF_TYPE_INDEX ptf870[] = {0,869,0xFFF7,0,865,0xFFFF};
 static struct eif_par_types par870 = {870, ptf870, (uint16) 0, (char) 0};
 
-/* INET6_ADDRESS */
-static EIF_TYPE_INDEX ptf871[] = {0,869,0xFFF7,0,865,0xFFFF};
+/* INET4_ADDRESS */
+static EIF_TYPE_INDEX ptf871[] = {0,869,0xFFFF};
 static struct eif_par_types par871 = {871, ptf871, (uint16) 0, (char) 0};
 
 /* SOCKET_RESOURCES */

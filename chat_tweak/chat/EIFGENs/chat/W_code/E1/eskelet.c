@@ -739,13 +739,13 @@ extern uint32 types885[];
 extern int32 ra360[];
 extern uint32 types884[];
 extern int32 ra361[];
-extern uint32 types872[];
 extern int32 ra362[];
 extern int32 ra363[];
 extern int32 ra364[];
 extern int32 ra365[];
-extern int32 ra366[];
 extern uint32 types882[];
+extern int32 ra366[];
+extern uint32 types872[];
 extern int32 ra367[];
 extern uint32 types871[];
 extern int32 ra368[];
@@ -20716,34 +20716,6 @@ extern char *names871[];
 uint32 types871 [] =
 {
 SK_REF,
-SK_INT32,
-SK_INT32,
-};
-
-uint16 attr_flags871 [] =
-{0,0,0,};
-
-static EIF_TYPE_INDEX g_atype871_0 [] = {0,219,0xFFFF};
-static EIF_TYPE_INDEX g_atype871_1 [] = {0,205,0xFFFF};
-static EIF_TYPE_INDEX g_atype871_2 [] = {0,205,0xFFFF};
-
-static EIF_TYPE_INDEX *gtypes871 [] = {
-g_atype871_0,
-g_atype871_1,
-g_atype871_2,
-};
-
-static int32 cn_attr871 [] =
-{
-4960,
-4945,
-4966,
-};
-
-extern char *names872[];
-uint32 types872 [] =
-{
-SK_REF,
 SK_REF,
 SK_REF,
 SK_BOOL,
@@ -20751,33 +20723,61 @@ SK_INT32,
 SK_INT32,
 };
 
-uint16 attr_flags872 [] =
+uint16 attr_flags871 [] =
 {0,0,0,0,0,0,};
 
+static EIF_TYPE_INDEX g_atype871_0 [] = {0,219,0xFFFF};
+static EIF_TYPE_INDEX g_atype871_1 [] = {0,647,196,0xFFFF};
+static EIF_TYPE_INDEX g_atype871_2 [] = {0,219,0xFFFF};
+static EIF_TYPE_INDEX g_atype871_3 [] = {0,190,0xFFFF};
+static EIF_TYPE_INDEX g_atype871_4 [] = {0,205,0xFFFF};
+static EIF_TYPE_INDEX g_atype871_5 [] = {0,205,0xFFFF};
+
+static EIF_TYPE_INDEX *gtypes871 [] = {
+g_atype871_0,
+g_atype871_1,
+g_atype871_2,
+g_atype871_3,
+g_atype871_4,
+g_atype871_5,
+};
+
+static int32 cn_attr871 [] =
+{
+4960,
+4968,
+4970,
+4972,
+4945,
+4969,
+};
+
+extern char *names872[];
+uint32 types872 [] =
+{
+SK_REF,
+SK_INT32,
+SK_INT32,
+};
+
+uint16 attr_flags872 [] =
+{0,0,0,};
+
 static EIF_TYPE_INDEX g_atype872_0 [] = {0,219,0xFFFF};
-static EIF_TYPE_INDEX g_atype872_1 [] = {0,647,196,0xFFFF};
-static EIF_TYPE_INDEX g_atype872_2 [] = {0,219,0xFFFF};
-static EIF_TYPE_INDEX g_atype872_3 [] = {0,190,0xFFFF};
-static EIF_TYPE_INDEX g_atype872_4 [] = {0,205,0xFFFF};
-static EIF_TYPE_INDEX g_atype872_5 [] = {0,205,0xFFFF};
+static EIF_TYPE_INDEX g_atype872_1 [] = {0,205,0xFFFF};
+static EIF_TYPE_INDEX g_atype872_2 [] = {0,205,0xFFFF};
 
 static EIF_TYPE_INDEX *gtypes872 [] = {
 g_atype872_0,
 g_atype872_1,
 g_atype872_2,
-g_atype872_3,
-g_atype872_4,
-g_atype872_5,
 };
 
 static int32 cn_attr872 [] =
 {
 4960,
-4976,
-4978,
-4980,
 4945,
-4977,
+4982,
 };
 
 extern char *names874[];
@@ -20999,12 +20999,12 @@ static int32 cn_attr880 [] =
 {
 2269,
 2273,
-5186,
+5184,
 1678,
 2277,
 2278,
-5184,
-5185,
+5182,
+5183,
 2279,
 };
 
@@ -21025,7 +21025,7 @@ g_atype881_0,
 
 static int32 cn_attr881 [] =
 {
-5192,
+5190,
 };
 
 extern char *names882[];
@@ -21045,7 +21045,7 @@ g_atype882_0,
 
 static int32 cn_attr882 [] =
 {
-5192,
+5190,
 };
 
 extern char *names883[];
@@ -21065,7 +21065,7 @@ g_atype883_0,
 
 static int32 cn_attr883 [] =
 {
-5192,
+5190,
 };
 
 extern char *names884[];
@@ -21161,17 +21161,17 @@ g_atype884_25,
 static int32 cn_attr884 [] =
 {
 2823,
-5213,
-5214,
-5245,
-5248,
+5211,
+5212,
+5243,
+5246,
 2822,
-5202,
-5222,
-5239,
+5200,
+5220,
+5237,
+5263,
+5264,
 5265,
-5266,
-5267,
 2833,
 2828,
 2832,
@@ -21179,9 +21179,9 @@ static int32 cn_attr884 [] =
 2830,
 2824,
 2836,
+5208,
+5209,
 5210,
-5211,
-5212,
 2834,
 2829,
 2826,
@@ -21284,18 +21284,18 @@ g_atype885_26,
 static int32 cn_attr885 [] =
 {
 2823,
-5213,
-5214,
-5245,
-5248,
-5269,
-2822,
-5202,
-5222,
-5239,
-5265,
-5266,
+5211,
+5212,
+5243,
+5246,
 5267,
+2822,
+5200,
+5220,
+5237,
+5263,
+5264,
+5265,
 2833,
 2828,
 2832,
@@ -21303,9 +21303,9 @@ static int32 cn_attr885 [] =
 2830,
 2824,
 2836,
+5208,
+5209,
 5210,
-5211,
-5212,
 2834,
 2829,
 2826,
@@ -21432,21 +21432,21 @@ g_atype886_34,
 static int32 cn_attr886 [] =
 {
 2823,
-5213,
-5214,
-5245,
-5248,
+5211,
+5212,
+5243,
+5246,
 2822,
-5202,
-5222,
-5239,
+5200,
+5220,
+5237,
+5263,
+5264,
 5265,
-5266,
-5267,
+5269,
+5270,
 5271,
-5272,
-5273,
-5295,
+5293,
 2833,
 2828,
 2832,
@@ -21454,14 +21454,14 @@ static int32 cn_attr886 [] =
 2830,
 2824,
 2836,
+5208,
+5209,
 5210,
-5211,
-5212,
-5279,
+5277,
+5281,
+5282,
 5283,
 5284,
-5285,
-5286,
 2834,
 2829,
 2826,
@@ -21597,22 +21597,22 @@ g_atype887_37,
 static int32 cn_attr887 [] =
 {
 2823,
-5213,
-5214,
-5245,
-5248,
-5269,
-2822,
-5202,
-5222,
-5239,
-5265,
-5266,
+5211,
+5212,
+5243,
+5246,
 5267,
+2822,
+5200,
+5220,
+5237,
+5263,
+5264,
+5265,
+5269,
+5270,
 5271,
-5272,
-5273,
-5295,
+5293,
 2833,
 2828,
 2832,
@@ -21620,16 +21620,16 @@ static int32 cn_attr887 [] =
 2830,
 2824,
 2836,
+5208,
+5209,
 5210,
-5211,
-5212,
-5279,
+5277,
+5281,
+5282,
 5283,
 5284,
-5285,
-5286,
+5301,
 5303,
-5305,
 2834,
 2829,
 2826,
@@ -36304,7 +36304,7 @@ struct cnode egc_fsystem_init[] = {
 	0,
 	0L,
 	(int32) 0,(int32) 862,
-	ra362,
+	ra361,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -36372,7 +36372,7 @@ struct cnode egc_fsystem_init[] = {
 	0,
 	0L,
 	(int32) 0,(int32) 866,
-	ra363,
+	ra362,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -36389,7 +36389,7 @@ struct cnode egc_fsystem_init[] = {
 	0,
 	0L,
 	(int32) 26,(int32) 867,
-	ra365,
+	ra364,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -36406,7 +36406,7 @@ struct cnode egc_fsystem_init[] = {
 	0,
 	0L,
 	(int32) 26,(int32) 868,
-	ra364,
+	ra363,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -36428,36 +36428,36 @@ struct cnode egc_fsystem_init[] = {
 	NULL
 },
 {
-	(long) 3,
-	(long) 3,
-	"INET4_ADDRESS",
+	(long) 6,
+	(long) 6,
+	"INET6_ADDRESS",
 	names871,
 	types871,
 	attr_flags871,
 	gtypes871,
 	(uint16) 0,
 	cn_attr871,
-	16,
-	1L,
+	40,
+	3L,
 	(int32) 0,(int32) 870,
 	ra367,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
 {
-	(long) 6,
-	(long) 6,
-	"INET6_ADDRESS",
+	(long) 3,
+	(long) 3,
+	"INET4_ADDRESS",
 	names872,
 	types872,
 	attr_flags872,
 	gtypes872,
 	(uint16) 0,
 	cn_attr872,
-	40,
-	3L,
+	16,
+	1L,
 	(int32) 0,(int32) 871,
-	ra361,
+	ra366,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -36627,7 +36627,7 @@ struct cnode egc_fsystem_init[] = {
 	8,
 	0L,
 	(int32) 0,(int32) 881,
-	ra366,
+	ra365,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -37580,16 +37580,16 @@ int32 *egc_fcall_init[] = {
 ra370,
 ra352,
 ra371,
-ra362,
+ra361,
 ra351,
 ra347,
 ra368,
-ra363,
-ra365,
+ra362,
 ra364,
+ra363,
 ra356,
 ra367,
-ra361,
+ra366,
 ra353,
 ra349,
 ra355,
@@ -37599,7 +37599,7 @@ ra357,
 ra369,
 ra348,
 ra373,
-ra366,
+ra365,
 ra372,
 ra360,
 ra359,
