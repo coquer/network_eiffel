@@ -10,7 +10,7 @@
 extern "C" {
 #endif
 
-extern void F883_7354(EIF_REFERENCE, EIF_TYPED_VALUE);
+extern void F883_7355(EIF_REFERENCE, EIF_TYPED_VALUE);
 extern void EIF_Minit883(void);
 
 #ifdef __cplusplus
@@ -33,7 +33,7 @@ extern "C" {
 #endif
 
 /* {ADDRINFO_2}.c_free */
-void F883_7354 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
+void F883_7355 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 {
 	GTCX
 	char *l_feature_name = "c_free";
@@ -53,12 +53,12 @@ void F883_7354 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTLU(SK_POINTER,&arg1);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 882, Current, 0, 1, 12806);
+	RTEAA(l_feature_name, 882, Current, 0, 1, 12807);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(882, Current, 12806);
+	RTDBGEAA(882, Current, 12807);
 	RTIV(Current, RTAL);
 	if ((RTAL & CK_REQUIRE) || RTAC) {
 		RTHOOK(1);

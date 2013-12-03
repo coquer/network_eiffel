@@ -28,7 +28,7 @@ COMMAND_MAKEFILE =
 START_TEST = if [ ! -f finished ] ; then 
 END_TEST = ; fi 
 CREATE_TEST = "C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL/gcc/win64/msys/1.0/bin/touch" finished
-PATH := C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL/gcc/win64/mingw/libexec/gcc/mingw32/3.4.2;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\ 
+PATH := C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL/gcc/win64/mingw/libexec/gcc/mingw32/3.4.2;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\ 
 SYSTEM_IN_DYNAMIC_LIB = join.dll 
 
 .SUFFIXES:.cpp .o 
@@ -93,7 +93,7 @@ C_OBJECTS = C1/Cobj1.o
 
 EOBJECTS = E1/eparents.o  E1/einit.o  E1/ececil.o  E1/evisib.o  E1/enames.o  E1/eskelet.o  E1/eplug.o  E1/ecall.o  E1/efrozen.o  E1/epattern.o  E1/eoption.o  
 
-PRECOMP_OBJECTS= "c:\users\stefan\documents\eiffel user files\7.3\precomp\spec\win64\EIFGENs\base\W_code/mingw/precomp.lib"
+PRECOMP_OBJECTS= "c:\users\stefan rasmussen\documents\eiffel user files\7.3\precomp\spec\win64\EIFGENs\base\W_code/mingw/precomp.lib"
 
 
 join.exe: E1/emain.o $(OBJECTS) join.res 

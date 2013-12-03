@@ -5063,6 +5063,7 @@ char *names880 [] =
 "new",
 "over",
 "count",
+"custom",
 };
 
 char *names881 [] =

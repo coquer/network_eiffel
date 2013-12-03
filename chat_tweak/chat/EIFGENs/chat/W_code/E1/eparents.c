@@ -3460,7 +3460,7 @@ static struct eif_par_types par862 = {862, ptf862, (uint16) 0, (char) 0};
 static EIF_TYPE_INDEX ptf863[] = {0,0,0xFFFF};
 static struct eif_par_types par863 = {863, ptf863, (uint16) 0, (char) 0};
 
-/* CONNECTION */
+/* RG_CONNECTION */
 static EIF_TYPE_INDEX ptf864[] = {0,863,0xFFFF};
 static struct eif_par_types par864 = {864, ptf864, (uint16) 0, (char) 0};
 

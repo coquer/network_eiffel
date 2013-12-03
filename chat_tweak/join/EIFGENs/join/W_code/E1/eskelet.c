@@ -741,10 +741,10 @@ extern uint32 types884[];
 extern int32 ra361[];
 extern int32 ra362[];
 extern int32 ra363[];
-extern int32 ra364[];
 extern uint32 types882[];
-extern int32 ra365[];
+extern int32 ra364[];
 extern uint32 types872[];
+extern int32 ra365[];
 extern int32 ra366[];
 extern uint32 types871[];
 extern int32 ra367[];
@@ -20964,10 +20964,11 @@ SK_BOOL,
 SK_BOOL,
 SK_BOOL,
 SK_INT32,
+SK_INT32,
 };
 
 uint16 attr_flags880 [] =
-{0,0,0,0,0,0,0,0,0,};
+{0,0,0,0,0,0,0,0,0,0,};
 
 static EIF_TYPE_INDEX g_atype880_0 [] = {0,344,219,0xFFFF};
 static EIF_TYPE_INDEX g_atype880_1 [] = {0,344,219,0xFFFF};
@@ -20978,6 +20979,7 @@ static EIF_TYPE_INDEX g_atype880_5 [] = {0,190,0xFFFF};
 static EIF_TYPE_INDEX g_atype880_6 [] = {0,190,0xFFFF};
 static EIF_TYPE_INDEX g_atype880_7 [] = {0,190,0xFFFF};
 static EIF_TYPE_INDEX g_atype880_8 [] = {0,205,0xFFFF};
+static EIF_TYPE_INDEX g_atype880_9 [] = {0,205,0xFFFF};
 
 static EIF_TYPE_INDEX *gtypes880 [] = {
 g_atype880_0,
@@ -20989,6 +20991,7 @@ g_atype880_5,
 g_atype880_6,
 g_atype880_7,
 g_atype880_8,
+g_atype880_9,
 };
 
 static int32 cn_attr880 [] =
@@ -21002,6 +21005,7 @@ static int32 cn_attr880 [] =
 5184,
 5185,
 2279,
+5187,
 };
 
 extern char *names881[];
@@ -21021,7 +21025,7 @@ g_atype881_0,
 
 static int32 cn_attr881 [] =
 {
-5192,
+5193,
 };
 
 extern char *names882[];
@@ -21041,7 +21045,7 @@ g_atype882_0,
 
 static int32 cn_attr882 [] =
 {
-5192,
+5193,
 };
 
 extern char *names883[];
@@ -21061,7 +21065,7 @@ g_atype883_0,
 
 static int32 cn_attr883 [] =
 {
-5192,
+5193,
 };
 
 extern char *names884[];
@@ -21157,17 +21161,17 @@ g_atype884_25,
 static int32 cn_attr884 [] =
 {
 2823,
-5213,
 5214,
-5245,
-5248,
+5215,
+5246,
+5249,
 2822,
-5202,
-5222,
-5239,
-5265,
+5203,
+5223,
+5240,
 5266,
 5267,
+5268,
 2833,
 2828,
 2832,
@@ -21175,9 +21179,9 @@ static int32 cn_attr884 [] =
 2830,
 2824,
 2836,
-5210,
 5211,
 5212,
+5213,
 2834,
 2829,
 2826,
@@ -21280,18 +21284,18 @@ g_atype885_26,
 static int32 cn_attr885 [] =
 {
 2823,
-5213,
 5214,
-5245,
-5248,
-5269,
+5215,
+5246,
+5249,
+5270,
 2822,
-5202,
-5222,
-5239,
-5265,
+5203,
+5223,
+5240,
 5266,
 5267,
+5268,
 2833,
 2828,
 2832,
@@ -21299,9 +21303,9 @@ static int32 cn_attr885 [] =
 2830,
 2824,
 2836,
-5210,
 5211,
 5212,
+5213,
 2834,
 2829,
 2826,
@@ -21428,21 +21432,21 @@ g_atype886_34,
 static int32 cn_attr886 [] =
 {
 2823,
-5213,
 5214,
-5245,
-5248,
+5215,
+5246,
+5249,
 2822,
-5202,
-5222,
-5239,
-5265,
+5203,
+5223,
+5240,
 5266,
 5267,
-5271,
+5268,
 5272,
 5273,
-5295,
+5274,
+5296,
 2833,
 2828,
 2832,
@@ -21450,14 +21454,14 @@ static int32 cn_attr886 [] =
 2830,
 2824,
 2836,
-5210,
 5211,
 5212,
-5279,
-5283,
+5213,
+5280,
 5284,
 5285,
 5286,
+5287,
 2834,
 2829,
 2826,
@@ -21593,22 +21597,22 @@ g_atype887_37,
 static int32 cn_attr887 [] =
 {
 2823,
-5213,
 5214,
-5245,
-5248,
-5269,
+5215,
+5246,
+5249,
+5270,
 2822,
-5202,
-5222,
-5239,
-5265,
+5203,
+5223,
+5240,
 5266,
 5267,
-5271,
+5268,
 5272,
 5273,
-5295,
+5274,
+5296,
 2833,
 2828,
 2832,
@@ -21616,16 +21620,16 @@ static int32 cn_attr887 [] =
 2830,
 2824,
 2836,
-5210,
 5211,
 5212,
-5279,
-5283,
+5213,
+5280,
 5284,
 5285,
 5286,
-5303,
-5305,
+5287,
+5304,
+5306,
 2834,
 2829,
 2826,
@@ -36300,7 +36304,7 @@ struct cnode egc_fsystem_init[] = {
 	0,
 	0L,
 	(int32) 0,(int32) 862,
-	ra361,
+	ra365,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -36324,7 +36328,7 @@ struct cnode egc_fsystem_init[] = {
 {
 	(long) 3,
 	(long) 3,
-	"CONNECTION",
+	"RG_CONNECTION",
 	names865,
 	types865,
 	attr_flags865,
@@ -36368,14 +36372,14 @@ struct cnode egc_fsystem_init[] = {
 	0,
 	0L,
 	(int32) 0,(int32) 866,
-	ra362,
+	ra361,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
 {
 	(long) 0,
 	(long) 0,
-	"INET_ADDRESS_IMPL_V4",
+	"INET_ADDRESS_IMPL_V6",
 	NULL,
 	NULL,
 	NULL,
@@ -36392,7 +36396,7 @@ struct cnode egc_fsystem_init[] = {
 {
 	(long) 0,
 	(long) 0,
-	"INET_ADDRESS_IMPL_V6",
+	"INET_ADDRESS_IMPL_V4",
 	NULL,
 	NULL,
 	NULL,
@@ -36402,7 +36406,7 @@ struct cnode egc_fsystem_init[] = {
 	0,
 	0L,
 	(int32) 26,(int32) 868,
-	ra363,
+	ra362,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -36453,7 +36457,7 @@ struct cnode egc_fsystem_init[] = {
 	16,
 	1L,
 	(int32) 0,(int32) 871,
-	ra365,
+	ra364,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -36528,7 +36532,7 @@ struct cnode egc_fsystem_init[] = {
 {
 	(long) 11,
 	(long) 11,
-	"JOIN",
+	"RG_NETWORK_CLIENT",
 	names877,
 	types877,
 	attr_flags877,
@@ -36577,8 +36581,8 @@ struct cnode egc_fsystem_init[] = {
 	NULL
 },
 {
-	(long) 9,
-	(long) 9,
+	(long) 10,
+	(long) 10,
 	"MESSAGE",
 	names880,
 	types880,
@@ -36623,7 +36627,7 @@ struct cnode egc_fsystem_init[] = {
 	8,
 	0L,
 	(int32) 0,(int32) 881,
-	ra364,
+	ra363,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -37576,16 +37580,16 @@ int32 *egc_fcall_init[] = {
 ra371,
 ra352,
 ra370,
-ra361,
+ra365,
 ra351,
 ra348,
 ra368,
-ra362,
+ra361,
 ra367,
-ra363,
+ra362,
 ra356,
 ra366,
-ra365,
+ra364,
 ra353,
 ra349,
 ra355,
@@ -37595,7 +37599,7 @@ ra357,
 ra369,
 ra347,
 ra373,
-ra364,
+ra363,
 ra372,
 ra360,
 ra359,

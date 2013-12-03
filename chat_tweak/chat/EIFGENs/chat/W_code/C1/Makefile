@@ -28,7 +28,7 @@ COMMAND_MAKEFILE =
 START_TEST = if [ ! -f finished ] ; then 
 END_TEST = ; fi 
 CREATE_TEST = "C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL/gcc/win64/msys/1.0/bin/touch" finished
-PATH := C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL/gcc/win64/mingw/libexec/gcc/mingw32/3.4.2;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\ 
+PATH := C:\Program Files\Eiffel Software\EiffelStudio 7.3 GPL/gcc/win64/mingw/libexec/gcc/mingw32/3.4.2;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\ 
 SYSTEM_IN_DYNAMIC_LIB = chat.dll 
 
 .SUFFIXES:.cpp .o 
@@ -41,7 +41,7 @@ SYSTEM_IN_DYNAMIC_LIB = chat.dll
 
 OBJECTS = big_file_C1_c.o 
 
-OLDOBJECTS =  rg877.o rg877d.o rg877f.o co865.o co865d.o co865f.o me880.o \
+OLDOBJECTS =  rg877.o rg877d.o rg877f.o rg865.o rg865d.o rg865f.o me880.o \
 	me880d.o me880f.o me874.o me874d.o me874f.o ne876.o ne876d.o ne876f.o \
 	po864.o po864d.o po864f.o po861.o po861d.o po861f.o so873.o so873d.o \
 	so873f.o ne887.o ne887d.o ne887f.o se875.o se875d.o se875f.o in870.o \

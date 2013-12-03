@@ -58,7 +58,7 @@ void Init867(void)
 {
 	IDSC(desc_867, 0, 866);
 	IDSC(desc_867 + 1, 1, 866);
-	IDSC(desc_867 + 32, 362, 866);
+	IDSC(desc_867 + 32, 361, 866);
 }
 
 

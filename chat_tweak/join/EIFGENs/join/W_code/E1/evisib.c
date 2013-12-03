@@ -12,7 +12,7 @@ static char * type_key [] = {
 (char *) 0,
 "STD_FILES",
 "EXECUTION_ENVIRONMENT",
-"CONNECTION",
+"RT_DEBUGGER",
 (char *) 0,
 "FILE",
 "SYSTEM_STRING",
@@ -50,7 +50,7 @@ static char * type_key [] = {
 "NATURAL_32_REF",
 (char *) 0,
 "SOCKET_ADDRESS",
-"RT_DEBUGGER",
+(char *) 0,
 "COUNTABLE",
 (char *) 0,
 "SED_ERROR_FACTORY",
@@ -58,7 +58,7 @@ static char * type_key [] = {
 "SERIALIZATION_FAILURE",
 "IDENTIFIED_CONTROLLER",
 "MESSAGE",
-"INTEGER_INTERVAL",
+(char *) 0,
 "INTEGER_8",
 "C_STRING",
 "OPERATING_ENVIRONMENT",
@@ -98,7 +98,7 @@ static char * type_key [] = {
 "DEVELOPER_EXCEPTION",
 "OBJECT_GRAPH_TRAVERSABLE",
 "REAL_32",
-(char *) 0,
+"RG_CONNECTION",
 "SED_SESSION_DESERIALIZER",
 "CHAIN",
 "EXCEP_CONST",
@@ -110,7 +110,7 @@ static char * type_key [] = {
 "RANDOM",
 "REFACTORING_HELPER",
 (char *) 0,
-"JOIN",
+"TABLE_ITERABLE",
 (char *) 0,
 "SED_INDEPENDENT_DESERIALIZER",
 "NATIVE_STRING_HANDLER",
@@ -242,7 +242,7 @@ static char * type_key [] = {
 "NATURAL_8_REF",
 "ROUTINE_FAILURE",
 (char *) 0,
-(char *) 0,
+"INDEXABLE_ITERATION_CURSOR",
 "REFLECTED_REFERENCE_OBJECT",
 "FILE_COMPARER",
 "NO_MORE_MEMORY",
@@ -324,7 +324,7 @@ static char * type_key [] = {
 "DEBUG_OUTPUT",
 "RT_DBG_VALUE_RECORD",
 "LINKED_STACK",
-"INDEXABLE_ITERATION_CURSOR",
+"RG_NETWORK_CLIENT",
 (char *) 0,
 "PRIMES",
 "STRING_8",
@@ -389,7 +389,7 @@ static char * type_key [] = {
 "REAL_64",
 "RT_EXTENSION_GENERAL",
 "SED_MEMORY_READER_WRITER",
-"TABLE_ITERABLE",
+"INTEGER_INTERVAL",
 "IO_MEDIUM",
 "SED_UTILITIES",
 "STRING_SEARCHER",
@@ -952,6 +952,28 @@ static EIF_TYPE_INDEX dyn_types259 [] = {
 743,
 777,
 810,
+};
+
+static uint32 patterns310 [] = {
+SK_INT32,
+SK_INT32,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_INT32,
+SK_UINT32,
+SK_POINTER,
+SK_INT32,
+SK_REF,
+SK_INVALID
+};
+
+static EIF_TYPE_INDEX dyn_types310 [] = {
+396,
+404,
+516,
+673,
+854,
 };
 
 static uint32 patterns248 [] = {
@@ -1600,6 +1622,43 @@ static EIF_TYPE_INDEX dyn_types233 [] = {
 710,
 };
 
+static uint32 patterns197 [] = {
+SK_INT32,
+SK_REF,
+SK_POINTER,
+SK_CHAR32,
+SK_REAL64,
+SK_BOOL,
+SK_CHAR8,
+SK_UINT32,
+SK_UINT64,
+SK_UINT16,
+SK_UINT8,
+SK_INT64,
+SK_REAL32,
+SK_INT16,
+SK_INT8,
+SK_INVALID
+};
+
+static EIF_TYPE_INDEX dyn_types197 [] = {
+262,
+288,
+361,
+388,
+412,
+459,
+488,
+540,
+579,
+610,
+643,
+681,
+742,
+776,
+809,
+};
+
 static uint32 patterns190 [] = {
 SK_INT32,
 SK_INT32,
@@ -1882,43 +1941,6 @@ static EIF_TYPE_INDEX dyn_types306 [] = {
 444,
 };
 
-static uint32 patterns197 [] = {
-SK_INT32,
-SK_REF,
-SK_POINTER,
-SK_CHAR32,
-SK_REAL64,
-SK_BOOL,
-SK_CHAR8,
-SK_UINT32,
-SK_UINT64,
-SK_UINT16,
-SK_UINT8,
-SK_INT64,
-SK_REAL32,
-SK_INT16,
-SK_INT8,
-SK_INVALID
-};
-
-static EIF_TYPE_INDEX dyn_types197 [] = {
-262,
-288,
-361,
-388,
-412,
-459,
-488,
-540,
-579,
-610,
-643,
-681,
-742,
-776,
-809,
-};
-
 static uint32 patterns89 [] = {
 SK_INT32,
 SK_REF,
@@ -2078,28 +2100,6 @@ static EIF_TYPE_INDEX dyn_types10 [] = {
 734,
 };
 
-static uint32 patterns310 [] = {
-SK_INT32,
-SK_INT32,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_INT32,
-SK_UINT32,
-SK_POINTER,
-SK_INT32,
-SK_REF,
-SK_INVALID
-};
-
-static EIF_TYPE_INDEX dyn_types310 [] = {
-396,
-404,
-516,
-673,
-854,
-};
-
 static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 873, NULL, NULL},
 {(int) 1, (EIF_TYPE_INDEX) 0, patterns246, dyn_types246},
@@ -2107,7 +2107,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 14, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 160, NULL, NULL},
-{(int) 0, (EIF_TYPE_INDEX) 864, NULL, NULL},
+{(int) 0, (EIF_TYPE_INDEX) 7, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 163, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 26, NULL, NULL},
@@ -2145,7 +2145,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 198, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 861, NULL, NULL},
-{(int) 0, (EIF_TYPE_INDEX) 7, NULL, NULL},
+{(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 1, (EIF_TYPE_INDEX) 0, patterns214, dyn_types214},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 17, NULL, NULL},
@@ -2153,7 +2153,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 85, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 6, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 879, NULL, NULL},
-{(int) 0, (EIF_TYPE_INDEX) 132, NULL, NULL},
+{(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 176, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 125, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 15, NULL, NULL},
@@ -2193,7 +2193,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 65, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 48, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 179, NULL, NULL},
-{(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
+{(int) 0, (EIF_TYPE_INDEX) 864, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 111, NULL, NULL},
 {(int) 1, (EIF_TYPE_INDEX) 0, patterns333, dyn_types333},
 {(int) 0, (EIF_TYPE_INDEX) 31, NULL, NULL},
@@ -2205,7 +2205,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 127, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 42, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
-{(int) 0, (EIF_TYPE_INDEX) 876, NULL, NULL},
+{(int) 2, (EIF_TYPE_INDEX) 0, patterns310, dyn_types310},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 113, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 156, NULL, NULL},
@@ -2306,7 +2306,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 86, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 105, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
-{(int) 0, (EIF_TYPE_INDEX) 867, NULL, NULL},
+{(int) 0, (EIF_TYPE_INDEX) 868, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 16, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 5, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 173, NULL, NULL},
@@ -2337,7 +2337,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 195, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 91, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
-{(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
+{(int) 1, (EIF_TYPE_INDEX) 0, patterns197, dyn_types197},
 {(int) 0, (EIF_TYPE_INDEX) 140, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 158, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 83, NULL, NULL},
@@ -2383,7 +2383,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 28, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 207, NULL, NULL},
-{(int) 0, (EIF_TYPE_INDEX) 868, NULL, NULL},
+{(int) 0, (EIF_TYPE_INDEX) 867, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 101, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 215, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 120, NULL, NULL},
@@ -2419,7 +2419,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 141, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 235, NULL, NULL},
 {(int) 1, (EIF_TYPE_INDEX) 0, patterns306, dyn_types306},
-{(int) 1, (EIF_TYPE_INDEX) 0, patterns197, dyn_types197},
+{(int) 0, (EIF_TYPE_INDEX) 876, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 0, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 128, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 219, NULL, NULL},
@@ -2484,7 +2484,7 @@ static struct cecil_info type_val[] = {
 {(int) 0, (EIF_TYPE_INDEX) 194, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 44, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 41, NULL, NULL},
-{(int) 2, (EIF_TYPE_INDEX) 0, patterns310, dyn_types310},
+{(int) 0, (EIF_TYPE_INDEX) 132, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 154, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 106, NULL, NULL},
 {(int) 0, (EIF_TYPE_INDEX) 103, NULL, NULL},

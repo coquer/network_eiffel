@@ -3460,7 +3460,7 @@ static struct eif_par_types par862 = {862, ptf862, (uint16) 0, (char) 0};
 static EIF_TYPE_INDEX ptf863[] = {0,0,0xFFFF};
 static struct eif_par_types par863 = {863, ptf863, (uint16) 0, (char) 0};
 
-/* CONNECTION */
+/* RG_CONNECTION */
 static EIF_TYPE_INDEX ptf864[] = {0,863,0xFFFF};
 static struct eif_par_types par864 = {864, ptf864, (uint16) 0, (char) 0};
 
@@ -3472,11 +3472,11 @@ static struct eif_par_types par865 = {865, ptf865, (uint16) 0, (char) 0};
 static EIF_TYPE_INDEX ptf866[] = {0,0,0xFFFF};
 static struct eif_par_types par866 = {866, ptf866, (uint16) 0, (char) 0};
 
-/* INET_ADDRESS_IMPL_V4 */
+/* INET_ADDRESS_IMPL_V6 */
 static EIF_TYPE_INDEX ptf867[] = {0,866,0xFFFF};
 static struct eif_par_types par867 = {867, ptf867, (uint16) 0, (char) 0};
 
-/* INET_ADDRESS_IMPL_V6 */
+/* INET_ADDRESS_IMPL_V4 */
 static EIF_TYPE_INDEX ptf868[] = {0,866,0xFFFF};
 static struct eif_par_types par868 = {868, ptf868, (uint16) 0, (char) 0};
 
@@ -3508,7 +3508,7 @@ static struct eif_par_types par874 = {874, ptf874, (uint16) 0, (char) 0};
 static EIF_TYPE_INDEX ptf875[] = {0,874,0xFFFF};
 static struct eif_par_types par875 = {875, ptf875, (uint16) 0, (char) 0};
 
-/* JOIN */
+/* RG_NETWORK_CLIENT */
 static EIF_TYPE_INDEX ptf876[] = {0,875,0xFFFF};
 static struct eif_par_types par876 = {876, ptf876, (uint16) 0, (char) 0};
 

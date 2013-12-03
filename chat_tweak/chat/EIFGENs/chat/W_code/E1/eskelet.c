@@ -36332,7 +36332,7 @@ struct cnode egc_fsystem_init[] = {
 {
 	(long) 3,
 	(long) 3,
-	"CONNECTION",
+	"RG_CONNECTION",
 	names865,
 	types865,
 	attr_flags865,

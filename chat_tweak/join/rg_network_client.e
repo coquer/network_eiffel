@@ -34,8 +34,8 @@ feature
 
 feature {NONE} -- Implementation
 
-	connection: CONNECTION
-	std_input: detachable CONNECTION
+	connection: RG_CONNECTION
+	std_input: detachable RG_CONNECTION
 	message_out: MESSAGE
 	received: detachable MESSAGE
 	client_name: STRING

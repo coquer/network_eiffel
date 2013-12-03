@@ -20,7 +20,7 @@ extern void F860_6987(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE);
 extern EIF_TYPED_VALUE F860_6988(EIF_REFERENCE, EIF_TYPED_VALUE);
 extern void F860_6989(EIF_REFERENCE, EIF_TYPED_VALUE);
 extern EIF_TYPED_VALUE F860_6990(EIF_REFERENCE);
-extern void F860_7562(EIF_REFERENCE, int);
+extern void F860_7563(EIF_REFERENCE, int);
 extern void EIF_Minit860(void);
 
 #ifdef __cplusplus
@@ -720,7 +720,7 @@ EIF_TYPED_VALUE F860_6990 (EIF_REFERENCE Current)
 
 
 /* {PACKET}._invariant */
-void F860_7562 (EIF_REFERENCE Current, int where)
+void F860_7563 (EIF_REFERENCE Current, int where)
 {
 	GTCX
 	char *l_feature_name = "_invariant";
@@ -737,7 +737,7 @@ void F860_7562 (EIF_REFERENCE Current, int where)
 	RTLR(1,tr1);
 	RTLU (SK_VOID, NULL);
 	RTLU (SK_REF, &Current);
-	RTEAINV(l_feature_name, 859, Current, 0, 7561);
+	RTEAINV(l_feature_name, 859, Current, 0, 7562);
 	RTSA(dtype);
 	RTME(dtype, 0);
 	RTIT("data_not_equal_void", Current);

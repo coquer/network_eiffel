@@ -634,16 +634,16 @@ EIF_TYPED_VALUE F878_7293 (EIF_REFERENCE Current)
 		RTHOOK(2);
 		RTDBGAL(Current, 0, 0xF8000362, 0,0); /* Result */
 		
-		tr1 = RTLN(868);
-		(FUNCTION_CAST(void, (EIF_REFERENCE)) RTWC(868, 26, Dtype(tr1)))(tr1);
+		tr1 = RTLN(867);
+		(FUNCTION_CAST(void, (EIF_REFERENCE)) RTWC(867, 26, Dtype(tr1)))(tr1);
 		RTNHOOK(2,1);
 		Result = (EIF_REFERENCE) RTCCL(tr1);
 	} else {
 		RTHOOK(3);
 		RTDBGAL(Current, 0, 0xF8000362, 0,0); /* Result */
 		
-		tr1 = RTLN(867);
-		(FUNCTION_CAST(void, (EIF_REFERENCE)) RTWC(867, 26, Dtype(tr1)))(tr1);
+		tr1 = RTLN(868);
+		(FUNCTION_CAST(void, (EIF_REFERENCE)) RTWC(868, 26, Dtype(tr1)))(tr1);
 		RTNHOOK(3,1);
 		Result = (EIF_REFERENCE) RTCCL(tr1);
 	}

@@ -16,7 +16,7 @@ extern EIF_TYPED_VALUE F866_7040(EIF_REFERENCE);extern EIF_BOOLEAN en_get_prefer
 
 extern void F866_7041(EIF_REFERENCE, EIF_TYPED_VALUE);extern void en_set_prefer_ipv4(EIF_BOOLEAN);
 
-extern void F866_7563(EIF_REFERENCE, int);
+extern void F866_7564(EIF_REFERENCE, int);
 extern void EIF_Minit866(void);
 
 #ifdef __cplusplus
@@ -55,11 +55,11 @@ EIF_TYPED_VALUE F866_7039 (EIF_REFERENCE Current)
 	RTLU (SK_BOOL, &Result);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 865, Current, 0, 0, 12507);
+	RTEAA(l_feature_name, 865, Current, 0, 0, 12508);
 	RTSA(Dtype(Current));
 	RTSC;
 	RTME(Dtype(Current), 1);
-	RTDBGEAA(865, Current, 12507);
+	RTDBGEAA(865, Current, 12508);
 	RTIV(Current, RTAL);Result = (EIF_BOOLEAN) EIF_TEST(en_ipv6_available());
 	
 	RTVI(Current, RTAL);
@@ -90,11 +90,11 @@ EIF_TYPED_VALUE F866_7040 (EIF_REFERENCE Current)
 	RTLU (SK_BOOL, &Result);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 865, Current, 0, 0, 12508);
+	RTEAA(l_feature_name, 865, Current, 0, 0, 12509);
 	RTSA(Dtype(Current));
 	RTSC;
 	RTME(Dtype(Current), 1);
-	RTDBGEAA(865, Current, 12508);
+	RTDBGEAA(865, Current, 12509);
 	RTIV(Current, RTAL);Result = (EIF_BOOLEAN) EIF_TEST(en_get_prefer_ipv4());
 	
 	RTVI(Current, RTAL);
@@ -127,11 +127,11 @@ void F866_7041 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTLU(SK_BOOL,&arg1);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 865, Current, 0, 1, 12509);
+	RTEAA(l_feature_name, 865, Current, 0, 1, 12510);
 	RTSA(Dtype(Current));
 	RTSC;
 	RTME(Dtype(Current), 1);
-	RTDBGEAA(865, Current, 12509);
+	RTDBGEAA(865, Current, 12510);
 	RTIV(Current, RTAL);en_set_prefer_ipv4(arg1);
 	
 	RTVI(Current, RTAL);
@@ -146,7 +146,7 @@ void F866_7041 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 }
 
 /* {INET_PROPERTIES}._invariant */
-void F866_7563 (EIF_REFERENCE Current, int where)
+void F866_7564 (EIF_REFERENCE Current, int where)
 {
 	GTCX
 	char *l_feature_name = "_invariant";
@@ -161,7 +161,7 @@ void F866_7563 (EIF_REFERENCE Current, int where)
 	RTLR(0,Current);
 	RTLU (SK_VOID, NULL);
 	RTLU (SK_REF, &Current);
-	RTEAINV(l_feature_name, 865, Current, 0, 7562);
+	RTEAINV(l_feature_name, 865, Current, 0, 7563);
 	RTSA(dtype);
 	RTME(dtype, 0);
 	RTIT("exclusive", Current);

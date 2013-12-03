@@ -1,5 +1,5 @@
 /*
- * Class INET_ADDRESS_IMPL_V4
+ * Class INET_ADDRESS_IMPL_V6
  */
 
 #include "eif_macros.h"
@@ -59,7 +59,7 @@ void Init868(void)
 {
 	IDSC(desc_868, 0, 867);
 	IDSC(desc_868 + 1, 1, 867);
-	IDSC(desc_868 + 32, 362, 867);
+	IDSC(desc_868 + 32, 361, 867);
 	IDSC(desc_868 + 35, 367, 867);
 }
 

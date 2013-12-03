@@ -12473,7 +12473,7 @@ extern void F860_6987();
 extern EIF_BOOLEAN F860_6988();
 extern void F860_6989();
 extern EIF_REFERENCE F860_6990();
-extern void F860_7562();
+extern void F860_7563();
 extern EIF_BOOLEAN F861_7006();
 extern void F861_7007();
 extern void F861_6991();
@@ -12513,10 +12513,10 @@ extern void F865_7033();
 extern EIF_BOOLEAN F865_7034();
 extern EIF_REFERENCE F865_7035();
 extern void F865_7036();
+extern void F866_7564();
 extern EIF_BOOLEAN F866_7039();
 extern EIF_BOOLEAN F866_7040();
 extern void F866_7041();
-extern void F866_7563();
 extern EIF_REFERENCE F868_7045();
 extern EIF_REFERENCE F868_7046();
 extern EIF_REFERENCE F868_7047();
@@ -12788,54 +12788,54 @@ extern void F880_7325();
 extern EIF_BOOLEAN F880_7326();
 extern EIF_BOOLEAN F880_7327();
 extern EIF_REFERENCE F880_7328();
-extern void F880_7329();
+extern EIF_INTEGER_32 F880_7329();
 extern void F880_7330();
 extern void F880_7331();
 extern void F880_7332();
-extern void F881_7333();
+extern void F880_7333();
 extern void F881_7334();
-extern EIF_POINTER F881_7335();
+extern void F881_7335();
+extern EIF_POINTER F881_7336();
 extern EIF_INTEGER_32 F882_7347();
 extern EIF_INTEGER_32 F882_7348();
 extern EIF_INTEGER_32 F882_7349();
-extern EIF_REFERENCE F882_7350();
-extern EIF_POINTER F882_7351();
+extern EIF_INTEGER_32 F882_7350();
+extern EIF_REFERENCE F882_7351();
 extern EIF_POINTER F882_7352();
-extern void F882_7353();
-extern EIF_INTEGER_32 F882_7337();
+extern EIF_POINTER F882_7353();
+extern void F882_7354();
 extern EIF_INTEGER_32 F882_7338();
 extern EIF_INTEGER_32 F882_7339();
 extern EIF_INTEGER_32 F882_7340();
 extern EIF_INTEGER_32 F882_7341();
-extern EIF_REFERENCE F882_7342();
-extern EIF_POINTER F882_7343();
-extern EIF_REFERENCE F882_7344();
-extern EIF_INTEGER_32 F882_7345();
+extern EIF_INTEGER_32 F882_7342();
+extern EIF_REFERENCE F882_7343();
+extern EIF_POINTER F882_7344();
+extern EIF_REFERENCE F882_7345();
 extern EIF_INTEGER_32 F882_7346();
-extern void F883_7354();
-extern EIF_REFERENCE F884_7355();
-extern EIF_BOOLEAN F884_7356();
+extern void F883_7355();
+extern EIF_REFERENCE F884_7356();
 extern EIF_BOOLEAN F884_7357();
-extern EIF_REFERENCE F884_7358();
-extern EIF_BOOLEAN F884_7359();
+extern EIF_BOOLEAN F884_7358();
+extern EIF_REFERENCE F884_7359();
 extern EIF_BOOLEAN F884_7360();
 extern EIF_BOOLEAN F884_7361();
-extern void F884_7362();
+extern EIF_BOOLEAN F884_7362();
 extern void F884_7363();
 extern void F884_7364();
-extern void F884_7368();
+extern void F884_7365();
 extern void F884_7369();
-extern EIF_BOOLEAN F884_7372();
-extern EIF_INTEGER_32 F884_7373();
+extern void F884_7370();
+extern EIF_BOOLEAN F884_7373();
 extern EIF_INTEGER_32 F884_7374();
 extern EIF_INTEGER_32 F884_7375();
-extern EIF_REFERENCE F884_7376();
+extern EIF_INTEGER_32 F884_7376();
 extern EIF_REFERENCE F884_7377();
 extern EIF_REFERENCE F884_7378();
-extern void F884_7379();
+extern EIF_REFERENCE F884_7379();
 extern void F884_7380();
-extern EIF_REFERENCE F884_7381();
-extern void F884_7382();
+extern void F884_7381();
+extern EIF_REFERENCE F884_7382();
 extern void F884_7383();
 extern void F884_7384();
 extern void F884_7385();
@@ -12861,7 +12861,7 @@ extern void F884_7404();
 extern void F884_7405();
 extern void F884_7406();
 extern void F884_7407();
-extern EIF_BOOLEAN F884_7408();
+extern void F884_7408();
 extern EIF_BOOLEAN F884_7409();
 extern EIF_BOOLEAN F884_7410();
 extern EIF_BOOLEAN F884_7411();
@@ -12869,7 +12869,7 @@ extern EIF_BOOLEAN F884_7412();
 extern EIF_BOOLEAN F884_7413();
 extern EIF_BOOLEAN F884_7414();
 extern EIF_BOOLEAN F884_7415();
-extern void F884_7416();
+extern EIF_BOOLEAN F884_7416();
 extern void F884_7417();
 extern void F884_7418();
 extern void F884_7419();
@@ -12877,8 +12877,8 @@ extern void F884_7420();
 extern void F884_7421();
 extern void F884_7422();
 extern void F884_7423();
-extern EIF_BOOLEAN F884_7424();
-extern void F884_7425();
+extern void F884_7424();
+extern EIF_BOOLEAN F884_7425();
 extern void F884_7426();
 extern void F884_7427();
 extern void F884_7428();
@@ -12895,101 +12895,102 @@ extern void F884_7438();
 extern void F884_7439();
 extern void F884_7440();
 extern void F884_7441();
-extern EIF_REFERENCE F884_7442();
+extern void F884_7442();
 extern EIF_REFERENCE F884_7443();
-extern void F884_7444();
+extern EIF_REFERENCE F884_7444();
 extern void F884_7445();
-extern EIF_BOOLEAN F884_7446();
-extern void F884_7447();
+extern void F884_7446();
+extern EIF_BOOLEAN F884_7447();
 extern void F884_7448();
-extern EIF_BOOLEAN F884_7449();
-extern void F884_7450();
-extern EIF_INTEGER_32 F884_7451();
-extern void F884_7452();
-extern EIF_INTEGER_32 F884_7453();
-extern EIF_BOOLEAN F884_7454();
-extern void F884_7455();
+extern void F884_7449();
+extern EIF_BOOLEAN F884_7450();
+extern void F884_7451();
+extern EIF_INTEGER_32 F884_7452();
+extern void F884_7453();
+extern EIF_INTEGER_32 F884_7454();
+extern EIF_BOOLEAN F884_7455();
 extern void F884_7456();
-extern EIF_BOOLEAN F884_7457();
-extern void F884_7458();
-extern EIF_BOOLEAN F884_7459();
+extern void F884_7457();
+extern EIF_BOOLEAN F884_7458();
+extern void F884_7459();
 extern EIF_BOOLEAN F884_7460();
-extern EIF_INTEGER_32 F884_7461();
+extern EIF_BOOLEAN F884_7461();
 extern EIF_INTEGER_32 F884_7462();
-extern EIF_REFERENCE F884_7463();
-extern EIF_REFERENCE F884_7465();
+extern EIF_INTEGER_32 F884_7463();
+extern EIF_REFERENCE F884_7464();
 extern EIF_REFERENCE F884_7466();
-extern void F884_7467();
-extern EIF_INTEGER_32 F884_7468();
+extern EIF_REFERENCE F884_7467();
+extern void F884_7468();
 extern EIF_INTEGER_32 F884_7469();
 extern EIF_INTEGER_32 F884_7470();
 extern EIF_INTEGER_32 F884_7471();
-extern void F884_7472();
-extern EIF_INTEGER_32 F884_7473();
+extern EIF_INTEGER_32 F884_7472();
+extern void F884_7473();
 extern EIF_INTEGER_32 F884_7474();
-extern void F884_7475();
+extern EIF_INTEGER_32 F884_7475();
 extern void F884_7476();
-extern EIF_INTEGER_32 F884_7477();
+extern void F884_7477();
 extern EIF_INTEGER_32 F884_7478();
-extern EIF_REFERENCE F884_7479();
-extern void F884_7480();
+extern EIF_INTEGER_32 F884_7479();
+extern EIF_REFERENCE F884_7480();
 extern void F884_7481();
 extern void F884_7482();
-extern EIF_BOOLEAN F885_7483();
-extern EIF_REFERENCE F885_7485();
-extern EIF_BOOLEAN F886_7487();
-extern void F886_7488();
-extern EIF_INTEGER_32 F886_7489();
-extern void F886_7490();
+extern void F884_7483();
+extern EIF_BOOLEAN F885_7484();
+extern EIF_REFERENCE F885_7486();
+extern EIF_BOOLEAN F886_7488();
+extern void F886_7489();
+extern EIF_INTEGER_32 F886_7490();
 extern void F886_7491();
-extern EIF_REFERENCE F886_7492();
-extern EIF_BOOLEAN F886_7493();
+extern void F886_7492();
+extern EIF_REFERENCE F886_7493();
 extern EIF_BOOLEAN F886_7494();
 extern EIF_BOOLEAN F886_7495();
 extern EIF_BOOLEAN F886_7496();
-extern EIF_INTEGER_32 F886_7497();
-extern EIF_BOOLEAN F886_7498();
+extern EIF_BOOLEAN F886_7497();
+extern EIF_INTEGER_32 F886_7498();
 extern EIF_BOOLEAN F886_7499();
 extern EIF_BOOLEAN F886_7500();
 extern EIF_BOOLEAN F886_7501();
 extern EIF_BOOLEAN F886_7502();
 extern EIF_BOOLEAN F886_7503();
-extern EIF_INTEGER_32 F886_7504();
-extern void F886_7505();
+extern EIF_BOOLEAN F886_7504();
+extern EIF_INTEGER_32 F886_7505();
 extern void F886_7506();
 extern void F886_7507();
 extern void F886_7508();
 extern void F886_7509();
 extern void F886_7510();
 extern void F886_7511();
-extern EIF_INTEGER_32 F886_7512();
+extern void F886_7512();
 extern EIF_INTEGER_32 F886_7513();
 extern EIF_INTEGER_32 F886_7514();
 extern EIF_INTEGER_32 F886_7515();
-extern void F886_7564();
-extern EIF_INTEGER_32 F886_7519();
-extern void F886_7520();
-extern EIF_INTEGER_32 F886_7521();
+extern EIF_INTEGER_32 F886_7516();
+extern void F886_7565();
+extern EIF_INTEGER_32 F886_7520();
+extern void F886_7521();
 extern EIF_INTEGER_32 F886_7522();
-extern void F886_7523();
+extern EIF_INTEGER_32 F886_7523();
+extern void F886_7524();
 extern void F887_7526();
 extern void F887_7527();
 extern void F887_7528();
 extern void F887_7529();
 extern void F887_7530();
-extern EIF_INTEGER_32 F887_7531();
-extern void F887_7532();
-extern EIF_INTEGER_32 F887_7533();
-extern void F887_7534();
+extern void F887_7531();
+extern EIF_INTEGER_32 F887_7532();
+extern void F887_7533();
+extern EIF_INTEGER_32 F887_7534();
 extern void F887_7535();
 extern void F887_7536();
-extern EIF_INTEGER_32 F887_7537();
+extern void F887_7537();
 extern EIF_INTEGER_32 F887_7538();
-extern EIF_BOOLEAN F887_7539();
+extern EIF_INTEGER_32 F887_7539();
 extern EIF_BOOLEAN F887_7540();
 extern EIF_BOOLEAN F887_7541();
-extern EIF_INTEGER_32 F887_7542();
-extern void F887_7543();
+extern EIF_BOOLEAN F887_7542();
+extern EIF_INTEGER_32 F887_7543();
 extern void F887_7544();
 extern void F887_7545();
 extern void F887_7546();
@@ -13003,12 +13004,12 @@ extern void F887_7553();
 extern void F887_7554();
 extern void F887_7555();
 extern void F887_7556();
-extern EIF_INTEGER_32 F887_7557();
-extern void F887_7558();
-extern EIF_INTEGER_32 F887_7559();
-extern EIF_BOOLEAN F887_7560();
-extern EIF_INTEGER_32 F887_7561();
-extern void F887_7524();
+extern void F887_7557();
+extern EIF_INTEGER_32 F887_7558();
+extern void F887_7559();
+extern EIF_INTEGER_32 F887_7560();
+extern EIF_BOOLEAN F887_7561();
+extern EIF_INTEGER_32 F887_7562();
 extern void F887_7525();
 
 #ifdef __cplusplus
@@ -25488,7 +25489,7 @@ fnptr egc_frozen_init[] = {
 (fnptr) F860_6988,
 (fnptr) F860_6989,
 (fnptr) F860_6990,
-(fnptr) F860_7562,
+(fnptr) F860_7563,
 (fnptr) F861_7006,
 (fnptr) F861_7007,
 (fnptr) F861_6991,
@@ -25528,10 +25529,10 @@ fnptr egc_frozen_init[] = {
 (fnptr) F865_7034,
 (fnptr) F865_7035,
 (fnptr) F865_7036,
+(fnptr) F866_7564,
 (fnptr) F866_7039,
 (fnptr) F866_7040,
 (fnptr) F866_7041,
-(fnptr) F866_7563,
 (fnptr) F868_7045,
 (fnptr) F868_7046,
 (fnptr) F868_7047,
@@ -25807,9 +25808,10 @@ fnptr egc_frozen_init[] = {
 (fnptr) F880_7330,
 (fnptr) F880_7331,
 (fnptr) F880_7332,
-(fnptr) F881_7333,
+(fnptr) F880_7333,
 (fnptr) F881_7334,
 (fnptr) F881_7335,
+(fnptr) F881_7336,
 (fnptr) F882_7347,
 (fnptr) F882_7348,
 (fnptr) F882_7349,
@@ -25817,7 +25819,7 @@ fnptr egc_frozen_init[] = {
 (fnptr) F882_7351,
 (fnptr) F882_7352,
 (fnptr) F882_7353,
-(fnptr) F882_7337,
+(fnptr) F882_7354,
 (fnptr) F882_7338,
 (fnptr) F882_7339,
 (fnptr) F882_7340,
@@ -25827,8 +25829,7 @@ fnptr egc_frozen_init[] = {
 (fnptr) F882_7344,
 (fnptr) F882_7345,
 (fnptr) F882_7346,
-(fnptr) F883_7354,
-(fnptr) F884_7355,
+(fnptr) F883_7355,
 (fnptr) F884_7356,
 (fnptr) F884_7357,
 (fnptr) F884_7358,
@@ -25838,9 +25839,9 @@ fnptr egc_frozen_init[] = {
 (fnptr) F884_7362,
 (fnptr) F884_7363,
 (fnptr) F884_7364,
-(fnptr) F884_7368,
+(fnptr) F884_7365,
 (fnptr) F884_7369,
-(fnptr) F884_7372,
+(fnptr) F884_7370,
 (fnptr) F884_7373,
 (fnptr) F884_7374,
 (fnptr) F884_7375,
@@ -25932,7 +25933,7 @@ fnptr egc_frozen_init[] = {
 (fnptr) F884_7461,
 (fnptr) F884_7462,
 (fnptr) F884_7463,
-(fnptr) F884_7465,
+(fnptr) F884_7464,
 (fnptr) F884_7466,
 (fnptr) F884_7467,
 (fnptr) F884_7468,
@@ -25950,9 +25951,9 @@ fnptr egc_frozen_init[] = {
 (fnptr) F884_7480,
 (fnptr) F884_7481,
 (fnptr) F884_7482,
-(fnptr) F885_7483,
-(fnptr) F885_7485,
-(fnptr) F886_7487,
+(fnptr) F884_7483,
+(fnptr) F885_7484,
+(fnptr) F885_7486,
 (fnptr) F886_7488,
 (fnptr) F886_7489,
 (fnptr) F886_7490,
@@ -25981,12 +25982,13 @@ fnptr egc_frozen_init[] = {
 (fnptr) F886_7513,
 (fnptr) F886_7514,
 (fnptr) F886_7515,
-(fnptr) F886_7564,
-(fnptr) F886_7519,
+(fnptr) F886_7516,
+(fnptr) F886_7565,
 (fnptr) F886_7520,
 (fnptr) F886_7521,
 (fnptr) F886_7522,
 (fnptr) F886_7523,
+(fnptr) F886_7524,
 (fnptr) F887_7526,
 (fnptr) F887_7527,
 (fnptr) F887_7528,
@@ -26023,7 +26025,7 @@ fnptr egc_frozen_init[] = {
 (fnptr) F887_7559,
 (fnptr) F887_7560,
 (fnptr) F887_7561,
-(fnptr) F887_7524,
+(fnptr) F887_7562,
 (fnptr) F887_7525,
 };
 
@@ -38535,10 +38537,10 @@ int egc_fpatidtab_init[] = {
 11,
 0,
 3,
+0,
 11,
 11,
 23,
-0,
 0,
 0,
 0,
@@ -38810,6 +38812,7 @@ int egc_fpatidtab_init[] = {
 11,
 11,
 0,
+9,
 3,
 23,
 23,
@@ -38817,6 +38820,7 @@ int egc_fpatidtab_init[] = {
 109,
 5,
 6,
+51,
 51,
 51,
 51,
@@ -38832,7 +38836,6 @@ int egc_fpatidtab_init[] = {
 0,
 6,
 0,
-51,
 51,
 109,
 0,
@@ -38994,6 +38997,7 @@ int egc_fpatidtab_init[] = {
 516,
 59,
 25,
+110,
 22,
 22,
 119,
@@ -39031,7 +39035,6 @@ int egc_fpatidtab_init[] = {
 24,
 52,
 5,
-110,
 };
 
 #ifdef __cplusplus

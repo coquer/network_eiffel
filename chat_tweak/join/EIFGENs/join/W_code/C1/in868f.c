@@ -1,5 +1,5 @@
 /*
- * Class INET_ADDRESS_IMPL_V4
+ * Class INET_ADDRESS_IMPL_V6
  */
 
 #include "eif_macros.h"

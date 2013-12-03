@@ -55,7 +55,7 @@ $spitshell >>Makefile <<'!NO!SUBS!'
 
 OBJECTS = big_file_C1_c.o 
 
-OLDOBJECTS =  rg877.o rg877d.o rg877f.o co865.o co865d.o co865f.o me880.o \
+OLDOBJECTS =  rg877.o rg877d.o rg877f.o rg865.o rg865d.o rg865f.o me880.o \
 	me880d.o me880f.o me874.o me874d.o me874f.o ne876.o ne876d.o ne876f.o \
 	po864.o po864d.o po864f.o po861.o po861d.o po861f.o so873.o so873d.o \
 	so873f.o ne887.o ne887d.o ne887f.o se875.o se875d.o se875f.o in870.o \
