@@ -55,16 +55,16 @@ $spitshell >>Makefile <<'!NO!SUBS!'
 
 OBJECTS = big_file_C1_c.o 
 
-OLDOBJECTS =  ch877.o ch877d.o ch877f.o co865.o co865d.o co865f.o me880.o \
+OLDOBJECTS =  rg877.o rg877d.o rg877f.o co865.o co865d.o co865f.o me880.o \
 	me880d.o me880f.o me874.o me874d.o me874f.o ne876.o ne876d.o ne876f.o \
 	po864.o po864d.o po864f.o po861.o po861d.o po861f.o so873.o so873d.o \
 	so873f.o ne887.o ne887d.o ne887f.o se875.o se875d.o se875f.o in870.o \
 	in870d.o in870f.o in878.o in878d.o in878f.o ne886.o ne886d.o ne886f.o \
-	st885.o st885d.o st885f.o so884.o so884d.o so884f.o ad863.o ad863d.o \
-	ad863f.o in867.o in867d.o in867f.o in869.o in869d.o in869f.o in868.o \
-	in868d.o in868f.o ad882.o ad882d.o ad882f.o in872.o in872d.o in872f.o \
-	in871.o in871d.o in871f.o in866.o in866d.o in866f.o ne879.o ne879d.o \
-	ne879f.o pa860.o pa860d.o pa860f.o so862.o so862d.o so862f.o ad883.o \
+	st885.o st885d.o st885f.o so884.o so884d.o so884f.o in869.o in869d.o \
+	in869f.o in868.o in868d.o in868f.o ad882.o ad882d.o ad882f.o in872.o \
+	in872d.o in872f.o in871.o in871d.o in871f.o ad863.o ad863d.o ad863f.o \
+	in867.o in867d.o in867f.o in866.o in866d.o in866f.o ne879.o ne879d.o \
+	ne879f.o so862.o so862d.o so862f.o pa860.o pa860d.o pa860f.o ad883.o \
 	ad883d.o ad883f.o ex881.o ex881d.o ex881f.o 
 
 all: Cobj1.o

@@ -16,7 +16,7 @@ static EIF_TYPE_INDEX gen_type3_866 [] = {0,0,0xFFFF};
 
 
 static struct desc_info desc_866[] = {
-	{(BODY_INDEX) 12507, (BODY_INDEX) -1, INVALID_DTYPE, NULL},
+	{(BODY_INDEX) 12510, (BODY_INDEX) -1, INVALID_DTYPE, NULL},
 	{0, (BODY_INDEX)-1, 219, NULL},
 	{1, (BODY_INDEX)-1, 239, gen_type0_866},
 	{2, (BODY_INDEX)-1, 190, NULL},
@@ -48,9 +48,9 @@ static struct desc_info desc_866[] = {
 	{28, (BODY_INDEX)-1, 865, NULL},
 	{29, (BODY_INDEX)-1, 214, NULL},
 	{30, (BODY_INDEX)-1, 865, NULL},
+	{12507, (BODY_INDEX)-1, 190, NULL},
 	{12508, (BODY_INDEX)-1, 190, NULL},
-	{12509, (BODY_INDEX)-1, 190, NULL},
-	{12510, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{12509, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
 };
 
 extern void Init866(void);

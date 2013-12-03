@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
 <system xmlns="http://www.eiffel.com/developers/xml/configuration-1-11-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-11-0 http://www.eiffel.com/developers/xml/configuration-1-11-0.xsd" name="join" uuid="80FD76A5-6929-45A5-A35E-7C446CAABA8A">
 	<target name="join">
-		<root cluster="root_cluster" class="JOIN" feature="make_join"/>
+		<root cluster="root_cluster" class="RG_NETWORK_CLIENT" feature="make_join"/>
 		<option warning="true" full_class_checking="true" is_attached_by_default="false" void_safety="none" syntax="transitional">
 			<assertions precondition="true"/>
 		</option>

@@ -10,9 +10,9 @@
 extern "C" {
 #endif
 
-extern void F881_7335(EIF_REFERENCE, EIF_TYPED_VALUE);
-extern void F881_7336(EIF_REFERENCE);
-extern EIF_TYPED_VALUE F881_7337(EIF_REFERENCE);
+extern void F881_7336(EIF_REFERENCE, EIF_TYPED_VALUE);
+extern void F881_7337(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F881_7338(EIF_REFERENCE);
 extern void EIF_Minit881(void);
 
 #ifdef __cplusplus
@@ -35,7 +35,7 @@ extern "C" {
 #endif
 
 /* {EXTERNAL_OBJECT}.make_from_external */
-void F881_7335 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
+void F881_7336 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 {
 	GTCX
 	char *l_feature_name = "make_from_external";
@@ -55,12 +55,12 @@ void F881_7335 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTLU(SK_POINTER,&arg1);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 880, Current, 0, 1, 12785);
+	RTEAA(l_feature_name, 880, Current, 0, 1, 12786);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(880, Current, 12785);
+	RTDBGEAA(880, Current, 12786);
 	RTIV(Current, RTAL);
 	if ((RTAL & CK_REQUIRE) || RTAC) {
 		RTHOOK(1);
@@ -89,7 +89,7 @@ body:;
 }
 
 /* {EXTERNAL_OBJECT}.dispose */
-void F881_7336 (EIF_REFERENCE Current)
+void F881_7337 (EIF_REFERENCE Current)
 {
 	GTCX
 	char *l_feature_name = "dispose";
@@ -108,12 +108,12 @@ void F881_7336 (EIF_REFERENCE Current)
 	RTLU (SK_VOID, NULL);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 880, Current, 0, 0, 12786);
+	RTEAA(l_feature_name, 880, Current, 0, 0, 12787);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(880, Current, 12786);
+	RTDBGEAA(880, Current, 12787);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	tp1 = *(EIF_POINTER *)(Current + RTWA(880, 35, dtype));
@@ -141,7 +141,7 @@ void F881_7336 (EIF_REFERENCE Current)
 }
 
 /* {EXTERNAL_OBJECT}.object_ptr */
-EIF_TYPED_VALUE F881_7337 (EIF_REFERENCE Current)
+EIF_TYPED_VALUE F881_7338 (EIF_REFERENCE Current)
 {
 	EIF_TYPED_VALUE r;
 	r.type = SK_POINTER;

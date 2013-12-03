@@ -16,7 +16,7 @@ extern EIF_TYPED_VALUE F866_7040(EIF_REFERENCE);extern EIF_BOOLEAN en_get_prefer
 
 extern void F866_7041(EIF_REFERENCE, EIF_TYPED_VALUE);extern void en_set_prefer_ipv4(EIF_BOOLEAN);
 
-extern void F866_7561(EIF_REFERENCE, int);
+extern void F866_7563(EIF_REFERENCE, int);
 extern void EIF_Minit866(void);
 
 #ifdef __cplusplus
@@ -146,7 +146,7 @@ void F866_7041 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 }
 
 /* {INET_PROPERTIES}._invariant */
-void F866_7561 (EIF_REFERENCE Current, int where)
+void F866_7563 (EIF_REFERENCE Current, int where)
 {
 	GTCX
 	char *l_feature_name = "_invariant";
@@ -161,7 +161,7 @@ void F866_7561 (EIF_REFERENCE Current, int where)
 	RTLR(0,Current);
 	RTLU (SK_VOID, NULL);
 	RTLU (SK_REF, &Current);
-	RTEAINV(l_feature_name, 865, Current, 0, 7560);
+	RTEAINV(l_feature_name, 865, Current, 0, 7562);
 	RTSA(dtype);
 	RTME(dtype, 0);
 	RTIT("exclusive", Current);

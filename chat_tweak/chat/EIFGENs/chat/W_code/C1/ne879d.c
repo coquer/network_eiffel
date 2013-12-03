@@ -54,9 +54,9 @@ static struct desc_info desc_879[] = {
 	{28, (BODY_INDEX)-1, 878, NULL},
 	{29, (BODY_INDEX)-1, 214, NULL},
 	{30, (BODY_INDEX)-1, 878, NULL},
+	{12507, (BODY_INDEX)-1, 190, NULL},
 	{12508, (BODY_INDEX)-1, 190, NULL},
-	{12509, (BODY_INDEX)-1, 190, NULL},
-	{12510, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{12509, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
 	{12616, (BODY_INDEX)-1, 219, NULL},
 	{12617, (BODY_INDEX)-1, 205, NULL},
 	{12618, (BODY_INDEX)-1, 190, NULL},
@@ -206,7 +206,7 @@ void Init879(void)
 	IDSC(desc_879 + 32, 368, 878);
 	IDSC(desc_879 + 35, 353, 878);
 	IDSC(desc_879 + 129, 357, 878);
-	IDSC(desc_879 + 150, 371, 878);
+	IDSC(desc_879 + 150, 370, 878);
 	IDSC(desc_879 + 160, 369, 878);
 }
 

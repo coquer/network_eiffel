@@ -234,10 +234,11 @@ static struct desc_info desc_880[] = {
 	{12778, 27, 190, NULL},
 	{12779, 28, 190, NULL},
 	{12780, 16, 219, NULL},
-	{12781, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{12781, 36, 205, NULL},
 	{12782, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
 	{12783, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
 	{12784, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{12785, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
 	{(BODY_INDEX)-1, (BODY_INDEX)-1, 205, gen_type21_880},
 };
 
@@ -269,7 +270,7 @@ void Init880(void)
 	IDSC(desc_880 + 163, 101, 879);
 	IDSC(desc_880 + 188, 287, 879);
 	IDSC(desc_880 + 197, 348, 879);
-	IDSC(desc_880 + 204, 175, 879);
+	IDSC(desc_880 + 205, 175, 879);
 }
 
 

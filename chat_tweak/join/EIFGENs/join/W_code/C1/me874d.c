@@ -203,7 +203,7 @@ void Init874(void)
 	IDSC(desc_874, 0, 873);
 	IDSC(desc_874 + 1, 1, 873);
 	IDSC(desc_874 + 32, 353, 873);
-	IDSC(desc_874 + 126, 347, 873);
+	IDSC(desc_874 + 126, 349, 873);
 }
 
 

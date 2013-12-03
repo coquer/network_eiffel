@@ -1,12 +1,5 @@
 note
-
-	description:
-		"Message transmitted in the advanced example."
-	legal: "See notice at end of class.";
-
-	status: "See notice at end of class.";
-	date: "$Date: 2009-02-04 16:27:32 -0800 (Wed, 04 Feb 2009) $";
-	revision: "$Revision: 76981 $"
+	description: "Description.."
 
 class MESSAGE
 
@@ -36,10 +29,9 @@ feature {NONE} -- Initialization
 feature
 
 	new: BOOLEAN
-
 	over: BOOLEAN
-
 	client_name: STRING
+	custom: INTEGER
 
 	set_client_name (s: STRING)
 		require
@@ -59,7 +51,6 @@ feature
 		end
 
 	print_message
-			-- Prints the contents of the message to standard output
 		do
 			from
 				start
@@ -70,19 +61,4 @@ feature
 				forth
 			end
 		end
-
-
-note
-	copyright:	"Copyright (c) 1984-2006, Eiffel Software and others"
-	license:	"Eiffel Forum License v2 (see http://www.eiffel.com/licensing/forum.txt)"
-	source: "[
-			 Eiffel Software
-			 356 Storke Road, Goleta, CA 93117 USA
-			 Telephone 805-685-1006, Fax 805-685-6869
-			 Website http://www.eiffel.com
-			 Customer support http://support.eiffel.com
-		]"
-
-
-end -- class MESSAGE
-
+end

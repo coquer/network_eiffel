@@ -5043,6 +5043,7 @@ char *names877 [] =
 "poll",
 "input_poll",
 "over",
+"waiting",
 "max_to_poll",
 };
 

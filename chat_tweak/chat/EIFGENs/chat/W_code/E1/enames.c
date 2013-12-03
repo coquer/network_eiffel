@@ -4995,18 +4995,18 @@ char *names870 [] =
 char *names871 [] =
 {
 "internal_host_name",
-"the_address",
-"the_scope_ifname",
-"is_scope_id_set",
 "family",
-"the_scope_id",
+"the_address",
 };
 
 char *names872 [] =
 {
 "internal_host_name",
-"family",
 "the_address",
+"the_scope_ifname",
+"is_scope_id_set",
+"family",
+"the_scope_id",
 };
 
 char *names874 [] =
@@ -5064,6 +5064,7 @@ char *names880 [] =
 "new",
 "over",
 "count",
+"custom",
 };
 
 char *names881 [] =
